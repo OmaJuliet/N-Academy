@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+  font-family: Karla;
+}
+
+.content {
+  max-width: 1280px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.content .segments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.content .segments h2 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.content .segments .tabs {
+  margin-bottom: 1.5rem;
+}
+
+.content .segments .tabs button{
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.cards {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h2 {
+  font-weight: 700;
+}
+
+.card-header span {
+  color: #f17320;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image {
+  width: 100%;
+  height: 14rem;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.cards .card-btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 2px 10px;
+}
+
+.cards .card-btns button {
+  padding: 5px 10px;
+  width: 30%;
+  background-color: #9114eb;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+  transition: background-color 0.5s ease-out;
+}
+
+.text-info {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-info p{
+  margin-top: 8px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.controls button {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: #7a0ec7;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+}
+
+
+.controls button:hover {
+  background-color: #910cef;
+}
+
+.controls button:nth-child(1) {
+  margin-right: 0.5rem;
+}
+
+
+/* sm */
+@media (max-width: 500px) {
+  .content {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
+  .cards {
+    max-width: 20rem;
+    height: 100%;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  .content .segments {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 2px 10px;
+    justify-content: center;
+    margin-left: 1.7rem;
+  }
+  
+  .content .segments h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .content .segments .tabs {
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+@media (width: 540px) {
+  .content {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
+  .cards {
+    max-width: 30rem;
+    justify-content: center;
+    margin-left: 2.2rem;
+  }
+
+  .content .segments {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 2px 10px;
+    justify-content: center;
+    margin-left: 1.9rem;
+  }
+
+  .content .segments h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .content .segments .tabs {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+
+/* md */
+@media (min-width: 767px ) and (max-width: 914px) {
+  .content {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
+  .cards {
+    max-width: 20rem;
+    justify-content: center;
+    margin-left: 2.2rem;
+  }
+
+  .content .segments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 35px;
+  }
+}
+
+
+/*lg*/
+@media (min-width: 1023px ) and (max-width: 1278px) {
+  .content .segments {
+    padding: 2px 15px;
+  }
+  
+  .cards {
+    max-width: 30rem;
+    margin-left: 0.6rem;
+  }
+}
