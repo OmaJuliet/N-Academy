@@ -29,14 +29,27 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.content .segments .tabs button{
+.content .segments .tabs .active-btn{
   padding: 5px 15px;
   border-radius: 5px;
-  background-color: blueviolet;
+  background: blueviolet;
+  border: 1px solid blueviolet;
+  margin-right: 10px;
+}
+
+.content .segments .tabs .button{
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid blueviolet;
   margin-right: 10px;
   color: #fff;
 }
 
+.content .segments .tabs .button:hover {
+  background: #fff;
+  color: blueviolet;
+}
 .cards {
   height: 100%;
   display: flex;
@@ -81,13 +94,21 @@ body {
 }
 
 .cards .card-btns button {
-  padding: 5px 10px;
+  padding: 5px 8px;
   width: 30%;
-  background-color: #9114eb;
+  background: none;
+  border: 2px solid rgb(129, 82, 249);
+  /* background-color: #9114eb; */
   cursor: pointer;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 3px 15px;
   transition: background-color 0.5s ease-out;
+}
+
+.cards .card-btns button:hover {
+  background-color: rgb(129, 82, 249);
+  border-radius: 15px 3px;
+  border: 2px solid rgb(129, 82, 249);
 }
 
 .text-info {

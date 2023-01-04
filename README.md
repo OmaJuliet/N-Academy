@@ -2,7 +2,7 @@
 
 ## About The Project 
 
-This is an NFT academy web application. An NFT Academy site where users can sign up to get courses and materials to learn about web3 development. It was built to improve on my React, React Slick
+This is an NFT academy web application. An NFT Academy site where users can sign up to get courses and materials to learn about web3 development.
 
 
 
@@ -13,7 +13,7 @@ This is an NFT academy web application. An NFT Academy site where users can sign
 ## Technologies Used
 
 - React.js
-- React Slick to create the sliding carousel
+- React Slick to create the sliding carousels
 - Tailwind CSS and CSS for styling
 - React-icons for the icons
 
@@ -22,7 +22,7 @@ This is an NFT academy web application. An NFT Academy site where users can sign
 ## Navigation 🔍
 
 - About
-- Courses
+- Collection
 - Blog
 - Contact
 

@@ -19,7 +19,8 @@ const Home = () => {
 
     return (
         <>
-            <section className="text-gray-600 body-font">
+        <main className="">
+            <section className="">
                 <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
                     <div className="text-center lg:w-2/3 w-full">
                         <h5>Welcome to N-Academy</h5>
@@ -27,7 +28,7 @@ const Home = () => {
                         <p className="mb-8 leading-relaxed w-full text-lg">An educational platform committed to building the most comprehensive,<br /> engaging and high-quality courses on NFT</p>
                         <div className="flex justify-center">
                             <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded-full text-lg">Get Started</button>
-                            <button className="ml-4 inline-flex text-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:rounded-full rounded text-lg"><span className=""><FaVideo className="lg:m-auto lg:mt-2 lg:mr-2 text-purple-500"/></span>Watch Video</button>
+                            <button className="ml-4 inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:rounded-full rounded text-lg hover:text-purple-500"><span className=""><FaVideo className="lg:m-auto lg:mt-2 lg:mr-2 text-purple-500"/></span>Watch Video</button>
                         </div>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ const Home = () => {
             <section className="">
                 <div className="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
                     <div className="text-center lg:w-2/3 w-full">
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 lg:text-center text-left">About Us</h1>
+                        <h1 className="lg:mt-8 sm:text-4xl text-3xl mb-4 font-medium lg:text-center text-left">About Us</h1>
                         <p className="mb-8 text-lg leading-relaxed lg:text-center text-left">We offer certification courses with hands-on development and practical testing. Our mission is to improve the quality and professionalism in the NFT industry
                             by providing top quality educational content. N-Academy is the next generation of Blockchain developer education.</p>
                     </div>
@@ -125,7 +126,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+        </main>
         </>
     )
 }

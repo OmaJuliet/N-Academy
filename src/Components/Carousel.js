@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Slider from 'react-slick'
 import { FaArrowLeft, FaArrowRight, FaStar } from 'react-icons/fa';
 import './carousel.css';
@@ -120,10 +120,10 @@ function Carousel() {
             <section className="segments">
                 <h2>our beginner courses</h2>
                 <div className='tabs'>
-                    <button>All</button>
-                    <button>Paid</button>
-                    <button>Free</button>
-                    <button>Premium</button>
+                    <button className="active-btn">All</button>
+                    <button className="button">Paid</button>
+                    <button className="button">Free</button>
+                    <button className="button">Premium</button>
                 </div>
             </section>
 
