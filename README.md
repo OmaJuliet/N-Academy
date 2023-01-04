@@ -32,4 +32,4 @@ This is an NFT academy web application. An NFT Academy site where users can sign
 
 Production Website Link: ()
 
-Project Github Repo Link: ()
+Project Github Repo Link: (https://github.com/OmaJuliet/N-Academy.git)
