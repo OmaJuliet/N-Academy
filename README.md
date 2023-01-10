@@ -15,6 +15,7 @@ This is an NFT academy web application. An NFT Academy site where users can sign
 - React.js
 - React Slick to create the sliding carousels
 - Tailwind CSS and CSS for styling
+- React-Toastify for notification
 - React-icons for the icons
 
 

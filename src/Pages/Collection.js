@@ -1,11 +1,18 @@
 import React, {useState} from 'react';
 import { collectionData } from '../collection';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => {
+  toast("Item has been added to your purchase collection")
+}
 
 
 const Collection = () => {
 
   const [category, setCategory] = useState(collectionData);
+  
   
   const handleBtns = (e) => {
     let word=e.target.value;
@@ -46,7 +53,10 @@ const Collection = () => {
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img className="lg:h-64 md:h-36 w-full object-cover object-center" src={item.linkImg} alt={item.name} />
                   <div className="py-6 px-2">
-                    <h1 className="text-xl font-bold">{item.name}</h1>
+                    <div className="flex items-center flex-wrap justify-between">
+                      <h1 className="text-xl font-bold">{item.name}</h1>
+                      <button className="inline-flex items-center px-2 py-1 border-2 border-indigo-400 rounded-lg hover:bg-white hover:text-indigo-500 hover:border-none" onClick={notify}>Buy Now</button>
+                    </div>
                     <p className="tracking-widest text-xs font-medium mb-4">{item.kind}</p>
                     
                     <div className="flex items-center flex-wrap">
@@ -70,6 +80,7 @@ const Collection = () => {
           </div>
         </div>
       </section>
+      <ToastContainer />
     </>
   )
 }

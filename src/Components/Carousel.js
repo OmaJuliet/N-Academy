@@ -2,9 +2,28 @@ import { useState } from 'react'
 import Slider from 'react-slick'
 import { FaArrowLeft, FaArrowRight, FaStar } from 'react-icons/fa';
 import './carousel.css';
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => {
+  toast("Course has been added to your purchase cart")
+}
+
+const notifyme = () => {
+        toast.success('Item has been added to saved courses', {
+            position: "top-left",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+  }
 
 
 function Carousel() {
@@ -116,6 +135,7 @@ function Carousel() {
     ]
 
     return (
+        <>
         <div className='content'>
             <section className="segments">
                 <h2>our beginner courses</h2>
@@ -146,8 +166,8 @@ function Carousel() {
                             {/* <p>{card.features}</p> */}
                         </div>
                         <div className="card-btns">
-                            <button>Buy Now</button>
-                            <button>Save </button>
+                            <button onClick={notify}>Buy Now</button>
+                            <button onClick={notifyme}>Save </button>
                         </div>
                     </div>
                 ))}
@@ -162,6 +182,8 @@ function Carousel() {
                 </button>
             </div>
         </div>
+        <ToastContainer />
+        </>
     )
 }
 

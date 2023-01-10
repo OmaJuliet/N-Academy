@@ -33,11 +33,10 @@ export const collectionData = [
     {
       id: 4,
       kind: "Music",
-      name: '1.116ETH',
+      name: 'NFT 4',
       eth: '1.31ETH',
       price: '$24.7',
       percent: '-23.5%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/image 9.png',
     },
     {
@@ -47,7 +46,6 @@ export const collectionData = [
       eth: '0.045ETH',
       price: '$24.7',
       percent: '-3.5%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/image 11.png',
     },
     {
@@ -57,7 +55,6 @@ export const collectionData = [
       eth: '1.156ETH',
       price: '$24.7',
       percent: '+23.5%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/image 12.png',
     },
     {
@@ -67,7 +64,6 @@ export const collectionData = [
       eth: '2.53ETH',
       price: '$24.7',
       percent: '+34.9%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/image 14.png',
     },
 
@@ -78,7 +74,6 @@ export const collectionData = [
       eth: '1.27ETH',
       price: '$24.7',
       percent: '-32.5%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/image 15.png',
     },
     {
@@ -88,7 +83,6 @@ export const collectionData = [
       eth: '2.46ETH',
       price: '$24.7',
       percent: '+3.35%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/Rectangle 12.png',
     },
     {
@@ -98,7 +92,6 @@ export const collectionData = [
       eth: '2.53ETH',
       price: '$32.2',
       percent: '+14.9%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/Rectangle 13.png',
     },
     {
@@ -108,7 +101,6 @@ export const collectionData = [
       eth: '1.27ETH',
       price: '$16.7',
       percent: '-32.5%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/Rectangle 14.png',
     },
     {
@@ -118,7 +110,6 @@ export const collectionData = [
       eth: '1.27ETH',
       price: '$24.7',
       percent: '+29.5%',
-      info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       linkImg: '/Images/Group 126.png',
     }
   ];
