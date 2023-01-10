@@ -89,7 +89,7 @@ const Footer = () => {
                 <div className="">
                     <div className="container mx-auto py-6 px-5 align-center text-center">
                         <p className="text-base text-center">Copyright © N-Academy Web App —
-                            <a href="https://www.linkedin.com/in/julietofoegbu" className="text-gray-600 underline text-purple-500" target="_blank"> Juliet</a>
+                            <a href="https://www.linkedin.com/in/julietofoegbu" className="text-gray-600 underline text-purple-500" target="_blank" rel="noreferrer"> Juliet</a>
                         </p>
                     </div>
                 </div>

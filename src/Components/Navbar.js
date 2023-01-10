@@ -52,20 +52,20 @@ const Navbar = () => {
                             </ul>
 
                             <div className="mt-3 space-y-2 lg:hidden md:hidden md:inline-block mt-6 mb-2">
-                                <a className="inline-block px-6 py-2 text-center text-white bg-purple-500 rounded shadow hover:bg-gray-800" >
+                                <a href="/" className="inline-block px-6 py-2 text-center text-white bg-purple-500 rounded shadow hover:bg-gray-800" >
                                     Sign Up
                                 </a>
-                                <a className="inline-block px-6 py-2 text-center text-gray-800 bg-white rounded shadow hover:bg-gray-100 ml-6">
+                                <a href="/" className="inline-block px-6 py-2 text-center text-gray-800 bg-white rounded shadow hover:bg-gray-100 ml-6">
                                     Log In
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className="hidden space-x-2 md:inline-block">
-                        <a className="px-6 py-2 text-white bg-purple-500 rounded shadow hover:bg-gray-800 cursor-pointer" > 
+                        <a href="/" className="px-6 py-2 text-white bg-purple-500 rounded shadow hover:bg-gray-800 cursor-pointer" > 
                             Sign Up
                         </a>
-                        <a className="px-4 py-2 text-gray-800 bg-white rounded shadow hover:bg-gray-100 cursor-pointer" >
+                        <a href="/" className="px-4 py-2 text-gray-800 bg-white rounded shadow hover:bg-gray-100 cursor-pointer" >
                             Log In
                         </a>
                     </div>

@@ -19,8 +19,8 @@ const Blog = () => {
                   <p className="mb-3 text-xs">{item.date}</p>
                   <p className="leading-relaxed mb-3">{item.info}...</p>
                   <div className="flex items-center flex-wrap ">
-                    <a className="inline-flex items-center md:mb-2 lg:mb-0">Read More
-                    </a>
+                    <p className="inline-flex items-center md:mb-2 lg:mb-0">Read More
+                    </p>
                     <span className="mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                       <FaThumbsUp className="w-4 h-4 mr-1" />{item.likes}
                     </span>
