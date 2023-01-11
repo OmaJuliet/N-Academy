@@ -20,7 +20,7 @@ const Home = () => {
     return (
         <>
         <main className="">
-            <section className="">
+            <section className="center">
                 <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
                     <div className="text-center lg:w-2/3 w-full">
                         <h5>Welcome to N-Academy</h5>
@@ -28,7 +28,7 @@ const Home = () => {
                         <p className="mb-8 leading-relaxed w-full text-lg">An educational platform committed to building the most comprehensive,<br /> engaging and high-quality courses on NFT</p>
                         <div className="flex justify-center">
                             <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded-full text-lg">Get Started</button>
-                            <button className="ml-4 inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:rounded-full rounded text-lg hover:text-purple-500"><span className=""><FaVideo className="lg:m-auto lg:mt-2 lg:mr-2 text-purple-500"/></span>Watch Video</button>
+                            <button className="ml-4 inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:rounded-full rounded text-lg hover:text-purple-500"><span className=""><FaVideo className="lg:mt-[5px] lg:mr-2 text-purple-500"/></span>Watch Video</button>
                         </div>
                     </div>
                 </div>
@@ -39,22 +39,22 @@ const Home = () => {
             <section className="">
                 <div className="container lg:px-40 md:px-12 px-2 py-2 mx-auto">
                     <div className="flex flex-wrap -m-4 text-center">
-                        <div className="p-2 md:w-1/4 w-1/2 w-full">
+                        <div className="p-2 md:w-1/4 w-full">
                             <div className="p-2">
                                 <img src={img1} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
                         </div>
-                        <div className="p-2 md:w-1/4 w-1/2 w-full">
+                        <div className="p-2 md:w-1/4 w-full">
                             <div className="p-2">
                                 <img src={img2} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
                         </div>
-                        <div className="p-2 md:w-1/4 w-1/2 w-full">
+                        <div className="p-2 md:w-1/4 w-full">
                             <div className="p-2">
                                 <img src={img3} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
                         </div>
-                        <div className="p-2 md:w-1/4 w-1/2 w-full">
+                        <div className="p-2 md:w-1/4 w-full">
                             <div className="p-2">
                                 <img src={img4} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>

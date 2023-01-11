@@ -12,7 +12,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
-      <div className="text-white bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-200 via-violet-600 to-sky-900">
+      <div className="text-white">
         <Navbar />
         <Router>
           <Routes>
