@@ -17,6 +17,7 @@ This is an NFT academy web application. An NFT Academy site where users can sign
 - Tailwind CSS and CSS for styling
 - React-Toastify for notification
 - React-icons for the icons
+- Framer motion for animation
 
 
 

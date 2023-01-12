@@ -183,12 +183,6 @@ function Carousel() {
                                 <span>{card.pricingText}{card.pricingText}{card.pricingText}</span>
                             </div>
                             <p>{card.description}</p>
-                            {/* <ul>
-                                {card.features.map((feature, index) => (
-                                    <li key={index}>{feature}</li>
-                                ))}
-                            </ul> */}
-                            {/* <p>{card.features}</p> */}
                         </div>
                         <div className="card-btns">
                             <button onClick={notify}>Buy Now</button>
