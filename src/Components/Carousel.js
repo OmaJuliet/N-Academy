@@ -136,11 +136,12 @@ function Carousel() {
 
     return (
         <>
-        <div className='content'>
+        <div className='center-3 z-0' />
+        <div className='content z-10'>
             <section className="segments">
                 <h2>our beginner courses</h2>
                 <div className='tabs'>
-                    <button className="active-btn">All</button>
+                    <button className="active-btn bg-gradient-to-r from-fuchsia-500 to-indigo-500">All</button>
                     <button className="button">Paid</button>
                     <button className="button">Free</button>
                     <button className="button">Premium</button>
@@ -167,7 +168,7 @@ function Carousel() {
                         </div>
                         <div className="card-btns">
                             <button onClick={notify}>Buy Now</button>
-                            <button onClick={notifyme}>Save </button>
+                            <button className='' onClick={notifyme}>Save </button>
                         </div>
                     </div>
                 ))}

@@ -45,7 +45,8 @@ export const Testimonial = () => {
     };
     return (
         <>
-            <div className="testimonial-section">
+        <div className='center-3 z-0' />
+            <div className="testimonial-section z-10">
                 <h1 className="testimonial-title">What students say about N-Academy</h1>
                 <p className="test-texts">We make learning easy! Learn from experts from all over the globe and get a certificate to have an edge over others.</p>
                 <Slider {...settings}>
@@ -65,7 +66,7 @@ export const Testimonial = () => {
                             </div>
 
                             <div className="card-bottom">
-                                <p><FaQuoteLeft /></p>
+                                <p><FaQuoteLeft className='text-[blueviolet]' /></p>
                                 <p>{item.info}</p>
                             </div>
                         </div>

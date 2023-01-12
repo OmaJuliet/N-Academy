@@ -32,7 +32,7 @@ body {
 .content .segments .tabs .active-btn{
   padding: 5px 15px;
   border-radius: 5px;
-  background: blueviolet;
+  /* background: blueviolet; */
   border: 1px solid blueviolet;
   margin-right: 10px;
 }
@@ -58,6 +58,7 @@ body {
   position: relative;
   border: 1px solid #ccc;
   border-radius: 15px;
+  background: #220761;
 }
 
 .card-header {
@@ -98,7 +99,7 @@ body {
   width: 30%;
   background: none;
   border: 2px solid rgb(129, 82, 249);
-  /* background-color: #9114eb; */
+  /* background-color: linear-gradient( rgb(251, 113, 133), rgb(217, 70, 239), rgb(99, 102, 241)); */
   cursor: pointer;
   color: #fff;
   border-radius: 3px 15px;
