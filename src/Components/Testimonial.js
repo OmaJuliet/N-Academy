@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import './testimonial.css';
 import { testimonialData } from '../data';
 import { FaQuoteLeft } from "react-icons/fa";
+import { motion } from 'framer-motion';
 
 
 export const Testimonial = () => {
@@ -46,7 +47,14 @@ export const Testimonial = () => {
     return (
         <>
         <div className='center-3 z-0' />
-            <div className="testimonial-section z-10">
+            <motion.div
+                initial={{
+                    y:80,
+                    opacity:0,
+                }}
+                transition={{ duration: .6 }}
+                whileInView={{ opacity: 1, y:0 }}
+                className="testimonial-section z-10">
                 <h1 className="testimonial-title">What students say about N-Academy</h1>
                 <p className="test-texts">We make learning easy! Learn from experts from all over the globe and get a certificate to have an edge over others.</p>
                 <Slider {...settings}>
@@ -73,7 +81,7 @@ export const Testimonial = () => {
 
                     ))}
                 </Slider>
-            </div>
+            </motion.div>
 
 
 

@@ -75,6 +75,10 @@
     background: #ad43d3;
   }
 
+  /* background-image: radial-gradient(
+    rgba(0, 0, 0, 0) 1px,
+    var(--background) 1px
+  ); */
 
   @media (max-width: 500px) {
     .subscribe {

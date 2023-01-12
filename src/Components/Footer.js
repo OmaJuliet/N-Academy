@@ -1,5 +1,6 @@
 import React from 'react';
 // import { FaGithub, FaLink } from "react-icons/fa";
+import { motion } from 'framer-motion';
 
 
 const Footer = () => {
@@ -13,7 +14,14 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-8 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <motion.div
+                            initial={{
+                                y:80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: .5 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="font-semibold text-lg mb-3">Quick Links</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -32,8 +40,16 @@ const Footer = () => {
                                     Privacy Policy
                                 </li>
                             </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        </motion.div>
+
+                        <motion.div
+                            initial={{
+                                y:80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: .80 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="font-semibold text-lg mb-3">Support</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -52,8 +68,16 @@ const Footer = () => {
                                     Terms of use
                                 </li>
                             </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        </motion.div>
+
+                        <motion.div
+                            initial={{
+                                y:80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: 1.1 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="font-semibold text-lg mb-3">Contact Us</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -66,8 +90,16 @@ const Footer = () => {
                                   24, Martins Street, Winchester.
                                 </li>
                             </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        </motion.div>
+
+                        <motion.div
+                            initial={{
+                                y:80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: 1.4 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="font-semibold text-lg mb-3">Part 4</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -83,7 +115,7 @@ const Footer = () => {
                                     Fourth Link
                                 </li>
                             </nav>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
                 <div className="">

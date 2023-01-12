@@ -176,7 +176,7 @@ const Home = () => {
                         <div className="lg:p-4 px-20 py-4 md:w-1/3 sm:mb-0 mb-6">
                             <motion.div
                                 initial={{
-                                    x:50,
+                                    x:35,
                                     opacity:0,
                                 }}
                                 transition={{ duration: 1.2 }}
@@ -202,7 +202,16 @@ const Home = () => {
           {/* subscribe section */}
 
             <div className="subscribe">
-                <div className="subscribe-inner bg-gradient-to-r from-fuchsia-500 to-indigo-500">
+                <motion.div
+                    initial={{
+                        x:-100,
+                        opacity:0,
+                    }}
+                    // animate={{ x: 10 }}
+                    whileHover={{ scale: 1.08 }}
+                    whileInView={{ opacity: 1, x:0 }}
+                    transition={{ duration: 1.8, type: 'spring', bounce: .8 }}
+                    className="subscribe-inner bg-gradient-to-r from-fuchsia-500 to-indigo-500">
                     <h1 className="subscribe-heading">Keep up with the Latest from N-Academy</h1>
                     <p className="subscribe-lead">
                         Subscribe and stay updated on the latest news by subscribing to the newsletter
@@ -217,7 +226,7 @@ const Home = () => {
                         />
                         <button className="search-button bg-gradient-to-r from-fuchsia-500 to-indigo-500" type="submit">Subscribe Now</button>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </main>
         </>

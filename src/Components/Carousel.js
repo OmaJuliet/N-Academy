@@ -4,9 +4,12 @@ import { FaArrowLeft, FaArrowRight, FaStar } from 'react-icons/fa';
 import './carousel.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import { motion } from 'framer-motion';
+const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
+const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
 
 const notify = () => {
   toast("Course has been added to your purchase cart")
@@ -28,6 +31,9 @@ const notifyme = () => {
 
 function Carousel() {
     const [sliderRef, setSliderRef] = useState(null);
+
+    const [isLoaded, setIsLoaded] = useState(false);
+    const [isInView, setIsInView] = useState(false);
 
 
     const sliderSettings = {
@@ -138,7 +144,14 @@ function Carousel() {
         <>
         <div className='center-3 z-0' />
         <div className='content z-10'>
-            <section className="segments">
+            <motion.section
+                initial={{
+                    y:80,
+                    opacity:0,
+                }}
+                transition={{ duration: .6 }}
+                whileInView={{ opacity: 1, y:0 }}
+                className="segments">
                 <h2>our beginner courses</h2>
                 <div className='tabs'>
                     <button className="active-btn bg-gradient-to-r from-fuchsia-500 to-indigo-500">All</button>
@@ -146,13 +159,24 @@ function Carousel() {
                     <button className="button">Free</button>
                     <button className="button">Premium</button>
                 </div>
-            </section>
+            </motion.section>
 
             <Slider ref={setSliderRef} {...sliderSettings}>
                 {courseCards.map((card, index) => (
                     <div key={index} className='cards'>
-
-                        <img src={card.imageSrc} alt={card.title} className='card-image' />
+                        <motion.div
+                            initial={false}
+                            animate={
+                              isLoaded && isInView
+                                ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
+                                : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
+                            }
+                            transition={{ duration: 1, delay: 1 }}
+                            // viewport={{ once: true }}
+                            onViewportEnter={() => setIsInView(true)}
+                        >
+                            <img src={card.imageSrc} onLoad={() => setIsLoaded(true)} alt={card.title} className='card-image' />
+                        </motion.div>
                         <div className='text-info'>
                             <div className='card-header'>
                                 <h2>{card.title}</h2>
