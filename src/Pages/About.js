@@ -1,5 +1,6 @@
 import React from 'react';
 import roadmap2 from "../Images/Group 126.png";
+import "../App.css"
 
 
 
@@ -8,7 +9,8 @@ const About = () => {
         <>
             <section>
                 <div className="container px-5 py-12 mx-auto">
-                    <div className="text-center mb-20">
+                <div className='center-2 z-0' />
+                    <div className="text-center mb-20 z-10">
                         <h1 className="sm:text-5xl text-4xl font-bold text-center mb-4">Our Vision</h1>
                         <p className="text-lg leading-relaxed xl:w-3/4 lg:w-4/5 mt-2 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

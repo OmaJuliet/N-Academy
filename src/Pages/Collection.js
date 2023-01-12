@@ -50,7 +50,7 @@ const Collection = () => {
           <div className="flex flex-wrap -m-2 lg:-m-0">
             {category.map((item) => (
               <div className="lg:p-8 p-4 md:w-1/2 lg:w-1/4 w-1/2" key={item.id}>
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-[#220761]">
                   <img className="lg:h-64 md:h-36 w-full object-cover object-center" src={item.linkImg} alt={item.name} />
                   <div className="py-6 px-2">
                     <div className="flex items-center flex-wrap justify-between">

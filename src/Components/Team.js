@@ -10,6 +10,7 @@ import team6 from "../Images/team6.jpg";
 const Team = () => {
   return (
     <section className="" id='team'>
+      <div className='center-2 z-0' />
       <div className='container xl:max-w-screen-xl mx-auto py-5 px-4 relative'>
         <h2 className="md:text-5xl text-4xl font-bold text-center md:my-10 my-12 w-fit mx-auto relative">
           Meet The Team
