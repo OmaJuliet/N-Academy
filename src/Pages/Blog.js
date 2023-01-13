@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaThumbsUp, FaComment } from "react-icons/fa";
 import { blogData } from '../blogdata';
+import { motion } from 'framer-motion';
 
 
 
@@ -11,7 +12,14 @@ const Blog = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
           {blogData.map((item) => (
-            <div className="p-4 md:w-1/3" key={item.id}>
+            <motion.div
+                initial={{
+                  x:80,
+                  opacity:0,
+              }}
+              transition={{ duration: 1.1 }}
+              whileInView={{ opacity: 1, x:0 }}
+              className="p-4 md:w-1/3" key={item.id}>
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-[#220761]">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={item.linkImg} alt={item.name} />
                 <div className="p-4">
@@ -30,7 +38,7 @@ const Blog = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
            ))}
 
           </div>

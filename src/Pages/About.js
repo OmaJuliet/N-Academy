@@ -1,13 +1,41 @@
-import React from 'react';
+import React, { useRef, useEffect } from "react";
 import roadmap2 from "../Images/Group 126.png";
 import "../App.css"
+import { motion } from 'framer-motion';
+// import { Power2 } from "gsap";
+// import { TimelineLite } from 'gsap/all';
+// import CSSRulePlugin from "gsap/CSSRulePlugin";
 
 
 
 const About = () => {
+    // let image = useRef(null);
+    // let container = useRef(null);
+    // let imageReveal = CSSRulePlugin.getRule(".img-container:after");
+  
+    // const timeline = new TimelineLite();
+  
+    // useEffect(() => {
+    //   timeline.to(container, 0, { css: { visibility: "visible" } });
+    //   timeline.to(imageReveal, 1.4, { width: "0%", ease: Power2.easeInOut });
+    //   timeline.from(image, 1.4, {
+    //     scale: 1.6,
+    //     ease: Power2.easeInOut,
+    //     delay: -1.4
+    //   });
+    // });
+
     return (
         <>
-            <section>
+            <motion.section
+                 initial={{
+                    x:-100,
+                    opacity:0,
+                }}
+                // animate={{ x: 10 }}
+                whileInView={{ opacity: 1, x:0 }}
+                transition={{ duration: 1.8, type: 'spring', bounce: .7 }}
+            >
                 <div className="container px-5 py-12 mx-auto">
                 <div className='center-2 z-0' />
                     <div className="text-center mb-20 z-10">
@@ -19,7 +47,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-            </section>
+            </motion.section>
 
 
             {/* Roadmap section */}
@@ -27,36 +55,77 @@ const About = () => {
                 <div className="container px-5 lg:py-12 py-8 mx-auto flex flex-wrap">
                     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                         <h1 className="text-5xl font-bold mb-2">Roadmap</h1>
-                        <img alt="roadmap" className=" h-full w-full" src={roadmap2} />
+                        <motion.img 
+                             initial={{
+                                x:-200,
+                                opacity:0,
+                            }}
+                            transition={{
+                                duration: 1.2,
+                            }}
+                            whileInView={{ opacity: 1, x:0 }}
+                            // viewport={{ once:true }}
+                            alt="roadmap" 
+                            className=" h-full w-full" 
+                            src={roadmap2}
+                        />
                     </div>
                     <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-                        <div className="flex flex-col mb-12 lg:items-start items-center">
+                        <motion.div
+                            initial={{
+                                y:-80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: .5 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap One</h2>
                                 <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col mb-12 lg:items-start items-center">
+                        <motion.div
+                            initial={{
+                                y:-80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: .80 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap Two</h2>
                                 <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col mb-12 lg:items-start items-center">
+                        <motion.div
+                             initial={{
+                                y:-80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: 1.1 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap Three</h2>
                                 <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
-                        </div>
+                        </motion.div>
 
-                        <div className="flex flex-col mb-12 lg:items-start items-center">
+                        <motion.div
+                            initial={{
+                                y:-80,
+                                opacity:0,
+                            }}
+                            transition={{ duration: 1.4 }}
+                            whileInView={{ opacity: 1, y:0 }}
+                            className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap Four</h2>
                                 <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </section>

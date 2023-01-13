@@ -3,6 +3,7 @@ import { collectionData } from '../collection';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { motion } from 'framer-motion';
 
 const notify = () => {
   toast("Item has been added to your purchase collection")
@@ -37,7 +38,16 @@ const Collection = () => {
 
   return (
     <>
-      <section className="">
+      <motion.section
+          initial={{
+            opacity:0,
+        }}
+        transition={{
+            duration: 2.0,
+        }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once:true }}
+        className="">
         <div clasNames="container px-5 py-24 mx-auto">
           <h2 className="mt-16 mb-12 text-center text-2xl font-semibold">NFT Collections</h2>
           <div className="flex flex-wrap mt-4 justify-center lg:mb-4 mb-12">
@@ -49,7 +59,12 @@ const Collection = () => {
 
           <div className="flex flex-wrap -m-2 lg:-m-0">
             {category.map((item) => (
-              <div className="lg:p-8 p-4 md:w-1/2 lg:w-1/4 w-1/2" key={item.id}>
+              <motion.div
+                animate="visible"
+                exit="hidden"
+                drag
+                dragConstraints={{ top: 0, bottom: 0, left:0, right:0 }}
+                className="lg:p-8 p-4 md:w-1/2 lg:w-1/4 w-1/2" key={item.id}>
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-[#220761]">
                   <img className="lg:h-64 md:h-36 w-full object-cover object-center" src={item.linkImg} alt={item.name} />
                   <div className="py-6 px-2">
@@ -73,13 +88,13 @@ const Collection = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
 
 
           </div>
         </div>
-      </section>
+      </motion.section>
       <ToastContainer />
     </>
   )
