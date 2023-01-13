@@ -48,9 +48,9 @@ const Collection = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once:true }}
         className="">
-        <div className="container px-5 py-24 mx-auto">
-          <h2 className="mt-16 mb-12 text-center text-2xl font-semibold">NFT Collections</h2>
-          <div className="flex flex-wrap mt-4 justify-center lg:mb-4 mb-12">
+        <div className="container px-5 lg:py-24 py-8 mx-auto">
+          <h2 className="lg:mt-16 mt-4 mb-12 text-center text-2xl font-semibold">NFT Collections</h2>
+          <div className="flex flex-wrap mt-4 justify-center lg:mb-4 mb-8">
           {/* py-2 px-6  */}
             <button value="All" onClick={handleBtns} className="mr-2 text-indigo-500 bg-white border-0 lg:p-0 py-2 px-6 md:w-24 h-12 hover:bg-indigo-500 hover:text-white focus:bg-indigo-600 focus:text-white rounded-full text-lg">All</button>
             <button value="Metaverse" onClick={handleBtns} className="mr-2 text-indigo-500 bg-white border-0 lg:p-0 py-2 px-6 md:w-24 h-12 hover:bg-indigo-500 hover:text-white focus:bg-indigo-600 focus:text-white rounded-full text-lg">Games</button>
