@@ -37,6 +37,7 @@ const Team = () => {
                   damping: 20,
                   bounce: .8
                 }}
+                whileHover={{ scale: 1.2, rotate: 90 }}
                 whileInView={{ opacity: 1, x:0 }}
                 src={team3}
                 alt="Team member"
