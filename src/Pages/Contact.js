@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <section>
-        <div className="container lg:px-20 py-12 px-2 mx-auto flex flex-wrap items-center">
+        <div className="container lg:px-20 py-12 px-4 mx-auto flex flex-wrap items-center">
 
           <motion.div
               initial={{
@@ -19,8 +19,8 @@ const Contact = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once:true }}
             className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-            <h1 className="font-bold text-4xl">CONTACT US</h1>
-            <p className="leading-relaxed text-lg mt-12">For more information, media or partnership inquiries feel free to get in touch here.</p>
+            <h1 className="font-bold lg:text-4xl text-2xl">CONTACT US</h1>
+            <p className="leading-relaxed text-base lg:mt-12 mt-6">For more information, media or partnership inquiries feel free to get in touch here.</p>
             <div className="flex flex-wrap mt-8">
               <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-200"/>
               <FaTwitter className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200"/>
