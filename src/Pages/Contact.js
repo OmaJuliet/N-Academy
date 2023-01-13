@@ -19,14 +19,14 @@ const Contact = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once:true }}
             className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-            <h1 className="font-bold lg:text-4xl text-2xl">CONTACT US</h1>
-            <p className="leading-relaxed text-base lg:mt-12 mt-6">For more information, media or partnership inquiries feel free to get in touch here.</p>
-            <div className="flex flex-wrap mt-8">
-              <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-200"/>
-              <FaTwitter className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200"/>
+            <h1 className="font-bold lg:text-4xl text-2xl text-white">CONTACT US</h1>
+            <p className="leading-relaxed text-base lg:mt-12 mt-6 text-white">For more information, media or partnership inquiries feel free to get in touch here.</p>
+            <div className="flex flex-wrap mt-8 ">
+              <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-200 text-white"/>
+              <FaTwitter className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
               <FaDiscord className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200"/>
-              <FaYoutube className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200"/>
-              <FaTwitch className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200"/>
+              <FaYoutube className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
+              <FaTwitch className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
             </div>
           </motion.div>
 

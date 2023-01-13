@@ -152,7 +152,7 @@ function Carousel() {
                 transition={{ duration: .6 }}
                 whileInView={{ opacity: 1, y:0 }}
                 className="segments">
-                <h2>our beginner courses</h2>
+                <h2 className="text-white">our beginner courses</h2>
                 <div className='tabs'>
                     <button className="active-btn bg-gradient-to-r from-fuchsia-500 to-indigo-500">All</button>
                     <button className="button">Paid</button>
@@ -179,10 +179,10 @@ function Carousel() {
                         </motion.div>
                         <div className='text-info'>
                             <div className='card-header'>
-                                <h2>{card.title}</h2>
+                                <h2 className="text-white">{card.title}</h2>
                                 <span>{card.pricingText}{card.pricingText}{card.pricingText}</span>
                             </div>
-                            <p>{card.description}</p>
+                            <p className="text-white">{card.description}</p>
                         </div>
                         <div className="card-btns">
                             <button onClick={notify}>Buy Now</button>

@@ -34,9 +34,9 @@ const Home = () => {
                         whileInView={{ opacity: 1, x:0 }}
                         transition={{ duration: 1.8, type: 'spring', bounce: .8 }}
                         className="text-center lg:w-2/3 w-full z-10">
-                        <h5>Welcome to N-Academy</h5>
+                        <h5 className="text-white">Welcome to N-Academy</h5>
                         <h1 className="lg:w-12/12 sm:text-6xl text-3xl mb-4 font-medium text-white">The All-in-one Learning Platform for NFT</h1>
-                        <p className="mb-8 leading-relaxed w-full text-lg">An educational platform committed to building the most comprehensive,<br /> engaging and high-quality courses on NFT</p>
+                        <p className="mb-8 leading-relaxed w-full text-lg text-white">An educational platform committed to building the most comprehensive,<br /> engaging and high-quality courses on NFT</p>
                         <div className="flex justify-center">
                             <button className="inline-flex text-white bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-purple-500 rounded-full text-base">Get Started</button>
                             <button className="inline-flex text-white bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-purple-500 rounded-full text-base ml-3">Watch Demo</button>
@@ -131,8 +131,8 @@ const Home = () => {
                         whileInView={{ opacity: 1, y:0 }}
                         transition={{ duration: 1.8, type: 'spring', bounce: .8 }}
                         className="text-center lg:w-2/3 w-full z-10">
-                        <h1 className="lg:mt-8 sm:text-4xl text-3xl mb-4 font-medium lg:text-center text-left">About Us</h1>
-                        <p className="mb-8 text-lg leading-relaxed lg:text-center text-left">We offer certification courses with hands-on development and practical testing. Our mission is to improve the quality and professionalism in the NFT industry
+                        <h1 className="lg:mt-8 sm:text-4xl text-3xl mb-4 font-medium lg:text-center text-left text-white">About Us</h1>
+                        <p className="mb-8 text-lg leading-relaxed lg:text-center text-left text-white">We offer certification courses with hands-on development and practical testing. Our mission is to improve the quality and professionalism in the NFT industry
                             by providing top quality educational content. N-Academy is the next generation of Blockchain developer education.</p>
                     </motion.div>
                 </div>

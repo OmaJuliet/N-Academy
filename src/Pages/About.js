@@ -38,7 +38,7 @@ const About = () => {
             >
                 <div className="container px-5 py-12 mx-auto">
                 <div className='center-2 z-0' />
-                    <div className="text-center mb-20 z-10">
+                    <div className="text-center mb-20 z-10 text-white">
                         <h1 className="sm:text-5xl text-4xl font-bold text-center mb-4">Our Vision</h1>
                         <p className="text-base leading-relaxed xl:w-3/4 lg:w-4/5 mt-2 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -54,7 +54,7 @@ const About = () => {
             <section className="">
                 <div className="container px-5 lg:py-12 py-8 mx-auto flex flex-wrap">
                     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-                        <h1 className="text-5xl font-bold mb-2">Roadmap</h1>
+                        <h1 className="text-5xl font-bold mb-2 text-white">Roadmap</h1>
                         <motion.img 
                              initial={{
                                 x:-200,
@@ -81,7 +81,7 @@ const About = () => {
                             className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap One</h2>
-                                <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p className="leading-relaxed text-base text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                         </motion.div>
 
@@ -95,7 +95,7 @@ const About = () => {
                             className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap Two</h2>
-                                <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p className="leading-relaxed text-base text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                         </motion.div>
 
@@ -109,7 +109,7 @@ const About = () => {
                             className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap Three</h2>
-                                <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p className="leading-relaxed text-base text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                         </motion.div>
 
@@ -123,7 +123,7 @@ const About = () => {
                             className="flex flex-col mb-12 lg:items-start items-center">
                             <div className="flex-grow">
                                 <h2 className="text-2xl font-semibold underline text-indigo-700 cursor-pointer mb-3 text-left">Roadmap Four</h2>
-                                <p className="leading-relaxed text-base text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p className="leading-relaxed text-base text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </div>
                         </motion.div>
                     </div>

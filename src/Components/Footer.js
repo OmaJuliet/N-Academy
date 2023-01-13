@@ -13,7 +13,7 @@ const Footer = () => {
                             <span className="text-3xl text-purple-400 font-bold">N-Academy</span>
                         </p>
                     </div>
-                    <div className="flex-grow flex flex-wrap md:pl-8 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    <div className="flex-grow flex flex-wrap md:pl-8 -mb-10 md:mt-0 mt-10 md:text-left text-center text-white">
                         <motion.div
                             initial={{
                                 y:80,
@@ -21,7 +21,7 @@ const Footer = () => {
                             }}
                             transition={{ duration: .5 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="lg:w-1/4 md:w-1/2 w-full px-4">
+                            className="lg:w-1/4 md:w-1/2 w-full px-4 text-white">
                             <h2 className="font-semibold text-lg mb-3">Quick Links</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -49,7 +49,7 @@ const Footer = () => {
                             }}
                             transition={{ duration: .80 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="lg:w-1/4 md:w-1/2 w-full px-4">
+                            className="lg:w-1/4 md:w-1/2 w-full px-4 text-white">
                             <h2 className="font-semibold text-lg mb-3">Support</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -77,7 +77,7 @@ const Footer = () => {
                             }}
                             transition={{ duration: 1.1 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="lg:w-1/4 md:w-1/2 w-full px-4">
+                            className="lg:w-1/4 md:w-1/2 w-full px-4 text-white">
                             <h2 className="font-semibold text-lg mb-3">Contact Us</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -99,7 +99,7 @@ const Footer = () => {
                             }}
                             transition={{ duration: 1.4 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="lg:w-1/4 md:w-1/2 w-full px-4">
+                            className="lg:w-1/4 md:w-1/2 w-full px-4 text-white">
                             <h2 className="font-semibold text-lg mb-3">Part 4</h2>
                             <nav className="list-none mb-10">
                                 <li className="mb-2 cursor-pointer">
@@ -120,8 +120,8 @@ const Footer = () => {
                 </div>
                 <div className="">
                     <div className="container mx-auto py-6 px-5 align-center text-center">
-                        <p className="text-base text-center">Copyright © N-Academy Web App —
-                            <a href="https://www.linkedin.com/in/julietofoegbu" className="text-gray-600 underline text-purple-500" target="_blank" rel="noreferrer"> Juliet</a>
+                        <p className="text-base text-center text-white">Copyright © N-Academy Web App —
+                            <a href="https://www.linkedin.com/in/julietofoegbu" className="underline text-purple-500" target="_blank" rel="noreferrer"> Juliet</a>
                         </p>
                     </div>
                 </div>
