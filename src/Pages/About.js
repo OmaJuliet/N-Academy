@@ -40,7 +40,7 @@ const About = () => {
                 <div className='center-2 z-0' />
                     <div className="text-center mb-20 z-10">
                         <h1 className="sm:text-5xl text-4xl font-bold text-center mb-4">Our Vision</h1>
-                        <p className="text-lg leading-relaxed xl:w-3/4 lg:w-4/5 mt-2 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        <p className="text-base leading-relaxed xl:w-3/4 lg:w-4/5 mt-2 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
@@ -138,10 +138,10 @@ const About = () => {
                     <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto p-8 bg-gray-300 rounded-3xl">
                         <h2 className="text-4xl font-semibold">Our Mission</h2>
                         <ol className="mt-2">
-                            <li className="mt-2 p-2 text-xl">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li className="mt-2 p-2 text-xl">2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li className="mt-2 p-2 text-xl">3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li className="mt-2 p-2 text-xl">4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li className="mt-2 p-2 text-base">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li className="mt-2 p-2 text-base">2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li className="mt-2 p-2 text-base">3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li className="mt-2 p-2 text-base">4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                         </ol>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ const Home = () => {
         <>
         <main className="p-5">
             <section className="">
-                <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+                <div className="container mx-auto flex lg:px-5 px-2 py-24 items-center justify-center flex-col">
                     <div className='center z-0' />
                     <motion.div
                         initial={{
@@ -38,8 +38,8 @@ const Home = () => {
                         <h1 className="lg:w-12/12 sm:text-6xl text-3xl mb-4 font-medium text-white">The All-in-one Learning Platform for NFT</h1>
                         <p className="mb-8 leading-relaxed w-full text-lg">An educational platform committed to building the most comprehensive,<br /> engaging and high-quality courses on NFT</p>
                         <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded-full text-lg">Get Started</button>
-                            <button className="ml-4 inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:rounded-full rounded text-lg hover:text-purple-500"><span className=""><FaVideo className="lg:mt-[5px] lg:mr-2 text-purple-500"/></span>Watch Video</button>
+                            <button className="inline-flex text-white bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-purple-500 rounded-full text-base">Get Started</button>
+                            <button className="inline-flex text-white bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-purple-500 rounded-full text-base ml-3">Watch Demo</button>
                         </div>
                     </motion.div>
                 </div>
@@ -57,7 +57,7 @@ const Home = () => {
                             }}
                             transition={{ duration: .5 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="p-2 md:w-1/6 w-full">
+                            className="p-2 md:w-1/6 w-1/2">
                             <div className="p-2">
                                 <img src={img1} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
@@ -70,7 +70,7 @@ const Home = () => {
                             }}
                             transition={{ duration: .80 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="p-2 md:w-1/4 w-full">
+                            className="p-2 md:w-1/4 w-1/2">
                             <div className="p-2">
                                 <img src={img2} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
@@ -83,7 +83,7 @@ const Home = () => {
                             }}
                             transition={{ duration: 1.1 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="p-2 md:w-1/6 w-full">
+                            className="p-2 md:w-1/6 w-1/2">
                             <div className="p-2">
                                 <img src={img3} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
@@ -96,7 +96,7 @@ const Home = () => {
                             }}
                             transition={{ duration: 1.4 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="p-2 md:w-1/6 w-full">
+                            className="p-2 md:w-1/6 w-1/2">
                             <div className="p-2">
                                 <img src={img4} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>
@@ -109,7 +109,7 @@ const Home = () => {
                             }}
                             transition={{ duration: 1.7 }}
                             whileInView={{ opacity: 1, y:0 }}
-                            className="p-2 md:w-1/4 w-full">
+                            className="p-2 md:w-1/4 w-1/2">
                             <div className="p-2">
                                 <img src={img5} alt="" className="text-indigo-500 lg:w-52 lg:h-32 w-24 h-20 mb-3 inline-block" />
                             </div>

@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <>
       <section className="">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container lg:px-5 px-8 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
           {blogData.map((item) => (
             <motion.div
@@ -19,7 +19,7 @@ const Blog = () => {
               }}
               transition={{ duration: 1.1 }}
               whileInView={{ opacity: 1, x:0 }}
-              className="p-4 md:w-1/3" key={item.id}>
+              className="lg:px-4 py-4 px-2 md:w-1/3" key={item.id}>
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-[#220761]">
                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={item.linkImg} alt={item.name} />
                 <div className="p-4">

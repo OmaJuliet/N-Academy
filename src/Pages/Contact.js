@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <section>
-        <div className="container px-20 py-12 mx-auto flex flex-wrap items-center">
+        <div className="container lg:px-20 py-12 px-2 mx-auto flex flex-wrap items-center">
 
           <motion.div
               initial={{
