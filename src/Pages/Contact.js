@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="flex flex-wrap mt-8 ">
               <FaInstagram className="w-8 h-8 cursor-pointer hover:text-gray-200 text-white"/>
               <FaTwitter className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
-              <FaDiscord className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200"/>
+              <FaDiscord className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
               <FaYoutube className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
               <FaTwitch className="w-8 h-8 ml-4 cursor-pointer hover:text-gray-200 text-white"/>
             </div>

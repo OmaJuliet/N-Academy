@@ -17,7 +17,7 @@ const Blog = () => {
                   x:80,
                   opacity:0,
               }}
-              transition={{ duration: 1.1 }}
+              transition={{ duration: 1.0 }}
               whileInView={{ opacity: 1, x:0 }}
               className="lg:px-4 py-4 px-2 md:w-1/3" key={item.id}>
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-[#220761]">

@@ -10,6 +10,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 0.3rem;
+  color: white;
 }
 
 .test-texts {
@@ -89,6 +90,7 @@
   .testimonial-title {
     font-size: 18px;
     width: 100%;
+    color: white;
   }
 
   .test-texts {

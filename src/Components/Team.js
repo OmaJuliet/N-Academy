@@ -21,7 +21,7 @@ const Team = () => {
           // animate={{ x: 10 }}
           whileInView={{ opacity: 1, x:0 }}
           transition={{ duration: 1.8, type: 'spring', bounce: .8 }}
-          className="md:text-5xl text-4xl font-bold text-center md:my-10 my-12 w-fit mx-auto relative">
+          className="md:text-5xl text-4xl font-bold text-center text-white md:my-10 my-12 w-fit mx-auto relative">
           Meet The Team
         </motion.h2>
         <div className="flex flex-wrap justify-center gap-8 md:gap-20 my-10">
@@ -44,10 +44,10 @@ const Team = () => {
                 className="w-[80%] rounded-full"
               />
             </div>
-            <p className="font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
+            <p className="text-white font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
               Jane Doe
             </p>
-            <p className="text-lg">
+            <p className="text-white text-lg">
               Founder and CEO
             </p>
           </div>
@@ -69,10 +69,10 @@ const Team = () => {
                 className="w-[80%] rounded-full"
               />
             </div>
-            <p className="font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
+            <p className="text-white font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
               John Doe
             </p>
-            <p className="text-lg">
+            <p className="text-white text-lg">
               Managing Director
             </p>
           </div>
@@ -94,10 +94,10 @@ const Team = () => {
                 className="w-[85%] rounded-full"
               />
             </div>
-            <p className="font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
+            <p className="text-white font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
             Janet Elderman
             </p>
-            <p className="text-lg">
+            <p className="text-white text-lg">
               Executive Assistant
             </p>
           </div>
@@ -119,10 +119,10 @@ const Team = () => {
                 className="w-[80%] rounded-full"
               />
             </div>
-            <p className="font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
+            <p className="text-white font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
               Donald Biden
             </p>
-            <p className="text-lg">
+            <p className="text-white text-lg">
               Marketing 
             </p>
           </div>
@@ -144,10 +144,10 @@ const Team = () => {
                 className="w-[80%] rounded-full"
               />
             </div>
-            <p className="font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
+            <p className="text-white font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
               Peace Joseph
             </p>
-            <p className="text-lg">
+            <p className="text-white text-lg">
               Finance, Head
             </p>
           </div>
@@ -169,10 +169,10 @@ const Team = () => {
                 className="w-[80%] rounded-full"
               />
             </div>
-            <p className="font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
+            <p className="text-white font-semibold md:text-2xl text-xl hover:underline cursor-pointer hover:text-indigo-500 mt-4">
               Jackson Smith
             </p>
-            <p className="text-lg">
+            <p className="text-white text-lg">
               Operations
             </p>
           </div>
